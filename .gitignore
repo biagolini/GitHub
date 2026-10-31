@@ -1,0 +1,5 @@
+# Temp Files
+.temp/
+
+# MacOS
+.DS_Store

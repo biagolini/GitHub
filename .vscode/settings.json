@@ -1,0 +1,21 @@
+{
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Write a single concise commit subject line in imperative mood, max 72 characters. Always start with a Conventional Commits type prefix followed by a colon and a space. Allowed types: docs, fix, chore, revert. This repository is an index of GitHub projects focused on GitHub Actions pipelines and their integration with AWS (reusable workflows, OIDC authentication to AWS, secret exfiltration defenses): the README lists projects alphabetically under letter sections (A to Z), each entry with a title, a short description, and a link to its GitHub repository. Use docs for README content changes (adding, updating, reordering, or removing project entries, and editing the introduction). Use fix for broken links or wrong repository names. Use chore for repository maintenance such as .gitignore or editor settings. Add a scope in parentheses: index for project entries in the README, readme for the introduction or general README structure, gitignore or vscode for those files. When adding or updating a single project entry, name the project in the subject, e.g. docs(index): add GitHub Actions Secret Defense. When a change adds several entries, summarize them, e.g. docs(index): add three GitHub Actions projects. Do not add a body, bullet points, or explanatory paragraphs. Do not add a Co-Authored-By footer or any trailer."
+    }
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.rulers": [],
+    "files.trimTrailingWhitespace": false
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/.temp": true
+  },
+  "git.inputValidationSubjectLength": 72
+}
